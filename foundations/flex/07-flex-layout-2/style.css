@@ -15,7 +15,6 @@ body {
 
 
 }
-
 .footer {
   height: 100%;
   background: #eee;
@@ -35,9 +34,14 @@ body {
  
   
 }
+ul{
+  margin: 0;
+  padding: 0;
+}
 li{
   list-style: none;
   text-align: left;
+  margin-bottom: 16px;
   
 }
 a{
