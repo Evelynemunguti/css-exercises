@@ -5,25 +5,63 @@ body {
 }
 
 .header {
-  height: 72px;
+  height: 100%;
+  width: 100%;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  
+
+
 }
 
 .footer {
-  height: 72px;
+  height: 100%;
   background: #eee;
   color: darkmagenta;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+ 
+  
 }
 
 .sidebar {
-  width: 300px;
+  width: 250px;
+  height: 430px;
   background: royalblue;
   box-sizing: border-box;
+ 
+  
 }
-
+li{
+  list-style: none;
+  text-align: left;
+  
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  
+  
+}
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 30%;
+  gap: 10px;
+
+ 
+ 
+  
+}
+.all{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
